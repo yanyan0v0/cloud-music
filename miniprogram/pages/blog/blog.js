@@ -79,7 +79,7 @@ Page({
 
   _loadBlogList(start = 0) {
     wx.showLoading({
-      title: '拼命加载中',
+      title: '拼命加载中',
     })
     wx.cloud.callFunction({
       name: 'blog',

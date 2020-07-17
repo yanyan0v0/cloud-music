@@ -30,7 +30,7 @@
 	},
 	"appid": "wx3fad57528870f817",
 	"projectname": "music-imooc",
-	"libVersion": "2.7.2",
+	"libVersion": "2.11.3",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",

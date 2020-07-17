@@ -16,6 +16,7 @@ exports.main = async(event, context) => {
   })
 
   app.router('playlist', async(ctx, next) => {
+    console.log(event)
     ctx.body = await cloud.database().collection('playlist')
       .skip(event.start)
       .limit(event.count)
